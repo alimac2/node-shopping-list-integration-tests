@@ -4,6 +4,6 @@ deploy:
   provider: heroku
   api_key:
     secure: fiPXI4Bwq44xbsVv3k57Z5+VQf0ACEOBsODjBQvdUNo0vMcZ4pyhAr/9FVdWXf28zEbC39aqIfmRCUglW+SK2CZRWvwS/Bjf2irn/XScSfcHg02B4lT1mopRC7Vx9InNCXEy02zRjJ19adjqMYKTM3F61JBwBc8R1e4ndCjemR+kQZiKAOCGdfKvBn2KdwLmtEVRPOX/t5cMNB+zfMXjO+WyewejX+LXfvDnSaZXJeZAKdwFpwWkEi6CU5ttScMSzEHjoLKkVC29QifYZEc07uMhQC3z17IEZsSwpctCMk+1SqDtk7kq1SH2DUMCjUzVGmADQ2chWQcznkbWMppra+ouy2sZhhAYO9lCc/mQyDbU1nC3AvQMUDVEapSTbnHQf7MAqGie8hvP0jQOfp/JpttnZXojDWQ0Vfd91hKAgWmuHNBXt+m8qSQvNgiysc7T9oBD5HajTsbES1FmQ67aiekt3aqmwCYpgBDZMnGF8AxhX0lIA0c7Li435XfiHKIbT+GZlXxAXLw1vXFdh/bb7oGQBZ7P7Hc5AH3Kr6Gs25zKrkFrWR0chYlvk9/HzSy7tfUvhPage8dkFoWE2f5qWS7UUfr8N1FpII986dNl+pL1+Ai1R80Kd9TKlKSo81gwi/B/9bBw5bVhkkNk0u+umqO+HOaM4HCWVJRZNi+HePY=
-  app: node-shoppin-list
-  on: 
+  app: heroku auth:token
+  on: node-shoppin-list
     repo: alimac2/node-shopping-list-integration-tests
